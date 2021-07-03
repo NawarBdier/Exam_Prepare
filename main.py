@@ -1,5 +1,12 @@
-a = [1, 2, 3]
+def matricalation(ID):
+    sum =0
+    for x in ID:
+        sum += int(x)
+    return sum
 
-for i in a:
-    print(i)
 
+amer_ID = input("Enter your matriculation number is = ")
+nawar_ID = input("Enter your matriculation number is = ")
+sum2 = matricalation(nawar_ID)
+sum1 = matricalation(amer_ID)
+print(sum1+sum2)
